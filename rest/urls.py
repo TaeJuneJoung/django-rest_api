@@ -3,6 +3,6 @@ from . import views
 
 app_name = "rest"
 
-ulrpatterns = [
-    path('', views.list, name="list")    
+urlpatterns = [
+    path('', views.list, name="list"),
 ]
